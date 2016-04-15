@@ -1,0 +1,23 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Ananzu.App.Theme" parent="App.Theme.Base"></style>
+    <style name="App.Theme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 默认页面的背景-->
+        <item name="android:windowBackground">@color/default_window_background</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustResize</item>
+        <item name="colorPrimary">@color/default_blue_color</item>
+        <item name="colorPrimaryDark">@color/default_blue_color</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:launchMode">singleTop</item>
+        <item name="android:colorLongPressedHighlight">@color/button_material_light</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+</resources>
