@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/Picasso/Picasso.iml" filepath="$PROJECT_DIR$/Picasso/Picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materiprogressbar/materiprogressbar.iml" filepath="$PROJECT_DIR$/materiprogressbar/materiprogressbar.iml" />
     </modules>
   </component>
 </project>
