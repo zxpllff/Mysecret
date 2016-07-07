@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/Picasso" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/materiprogressbar" />
+            <option value="$PROJECT_DIR$/pulltorefreshrecycleview" />
+            <option value="$PROJECT_DIR$/viewlibrary" />
           </set>
         </option>
         <option name="myModules">
@@ -20,6 +22,8 @@
             <option value="$PROJECT_DIR$/Picasso" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/materiprogressbar" />
+            <option value="$PROJECT_DIR$/pulltorefreshrecycleview" />
+            <option value="$PROJECT_DIR$/viewlibrary" />
           </set>
         </option>
       </GradleProjectSettings>

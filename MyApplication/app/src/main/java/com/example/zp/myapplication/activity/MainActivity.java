@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.example.zp.myapplication.R;
 import com.example.zp.myapplication.fragment.AlbumFragment;
 import com.example.zp.myapplication.fragment.CreaterFragment;
+import com.example.zp.myapplication.fragment.MainFragment;
 import com.example.zp.myapplication.fragment.WebViewFragment;
 
 import java.util.jar.Manifest;
@@ -125,11 +126,11 @@ public class MainActivity extends BaseActivity
     }
 
     private void addFragment(){
-       Fragment mFragment=mFragmentManager.findFragmentByTag(WebViewFragment.class.getSimpleName());
+       Fragment mFragment=mFragmentManager.findFragmentByTag(MainFragment.class.getSimpleName());
         if(mFragment==null){
-            WebViewFragment mWebViewFragment= new WebViewFragment();
-            mFragmentManager.beginTransaction().add(R.id.frame_layout, mWebViewFragment, WebViewFragment.class.getSimpleName()).commitAllowingStateLoss();
-            currentFramentName=WebViewFragment.class.getSimpleName();
+            MainFragment mMainFragment= new MainFragment();
+            mFragmentManager.beginTransaction().add(R.id.frame_layout, mMainFragment, MainFragment.class.getSimpleName()).commitAllowingStateLoss();
+            currentFramentName=MainFragment.class.getSimpleName();
         }
     }
 

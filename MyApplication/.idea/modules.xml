@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Picasso/Picasso.iml" filepath="$PROJECT_DIR$/Picasso/Picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/materiprogressbar/materiprogressbar.iml" filepath="$PROJECT_DIR$/materiprogressbar/materiprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefreshrecycleview/pulltorefreshrecycleview.iml" filepath="$PROJECT_DIR$/pulltorefreshrecycleview/pulltorefreshrecycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewlibrary/viewlibrary.iml" filepath="$PROJECT_DIR$/viewlibrary/viewlibrary.iml" />
     </modules>
   </component>
 </project>

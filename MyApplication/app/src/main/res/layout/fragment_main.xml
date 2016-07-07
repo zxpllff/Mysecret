@@ -4,6 +4,23 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <com.example.materiprogressbar.MaterialProgressBar
+        android:id="@+id/materiprogressbar"
+        android:layout_height="1dp"
+        android:layout_width="match_parent">
 
+    </com.example.materiprogressbar.MaterialProgressBar>
+<com.example.pulltorefreshrecycleview.PtrClassicFrameLayout
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="下拉刷新"
+        android:gravity="center"
+        />
+    </com.example.pulltorefreshrecycleview.PtrClassicFrameLayout>
 
 </LinearLayout>
